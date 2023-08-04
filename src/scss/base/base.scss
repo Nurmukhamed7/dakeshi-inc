@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500;700&family=PT+Sans:ital@0;1&display=swap');
+
+body {
+	font-family: $font-main;
+	color: $black;
+	font-size: 16px;
+	background: $main;
+}
+
+a {
+	color: $black;
+	transition: color 0.3s ease-in;
+
+	&:hover {
+		color: white;
+	}
+}
+
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 15px;
+	/* background: green; */
+}
+
+.example {
+	height: 100vh;
+	background: orange;
+}

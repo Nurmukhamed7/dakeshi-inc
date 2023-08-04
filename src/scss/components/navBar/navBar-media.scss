@@ -1,0 +1,48 @@
+@media (max-width: 1200px) {
+	.header-heading {
+		margin: 0;
+		font-weight: 700;
+		font-size: 70px;
+		font-family: $font-header;
+	}
+}
+
+@media (max-width: 1000px) {
+	.header-nav {
+		padding: 25px 0;
+	}
+
+	.nav-list {
+		display: none;
+		margin: 0;
+		align-items: end;
+		text-align: right;
+	}
+
+	.nav-button {
+		display: block;
+	}
+
+	.nav.open .nav-list {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: $main;
+
+		z-index: 2;
+
+		padding: 28px 38px;
+		display: flex;
+		flex-direction: column;
+		row-gap: 24px;
+	}
+
+	.nav-button {
+		position: fixed;
+		z-index: 9;
+		top: 32px;
+		left: 30px;
+	}
+}
