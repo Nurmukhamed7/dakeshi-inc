@@ -50,3 +50,17 @@
 		position: fixed;
 	}
 }
+
+@media (max-width: 480px) {
+	.nav-button {
+		/* display: none; */
+		position: absolute;
+		z-index: 9;
+		top: 32px;
+		left: 30px;
+	}
+
+	.nav.open .nav-button {
+		/* position: fixed; */
+	}
+}

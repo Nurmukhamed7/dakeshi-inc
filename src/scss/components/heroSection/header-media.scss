@@ -53,7 +53,7 @@
 
 @media (max-width: 480px) {
 	.heroSection {
-		overflow-x: hidden;
+		/* overflow-x: hidden; */
 	}
 
 	.header-row {
@@ -68,5 +68,19 @@
 		img {
 			width: 500px;
 		}
+	}
+
+	.header-gradient__1 {
+		width: 360px;
+		left: 350px;
+		height: 360px;
+		top: 350px;
+	}
+
+	.header-gradient__2 {
+		width: 360px;
+		left: 20px;
+		height: 360px;
+		top: 0;
 	}
 }
