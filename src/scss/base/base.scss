@@ -4,7 +4,7 @@ body {
 	font-family: $font-main;
 	color: $black;
 	font-size: 16px;
-	background: $main;
+	/* background: $main; */
 }
 
 a {
@@ -12,7 +12,7 @@ a {
 	transition: color 0.3s ease-in;
 
 	&:hover {
-		color: white;
+		color: $orange;
 	}
 }
 
@@ -25,5 +25,6 @@ a {
 
 .example {
 	height: 100vh;
-	background: orange;
+	width: 100vw;
+	background: red;
 }

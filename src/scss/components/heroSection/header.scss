@@ -1,0 +1,71 @@
+.heroSection {
+	background: $main;
+	// max-height: 783px;
+	height: 100vh; // это для scrolltrigger
+}
+
+.contact {
+	background: $blue;
+	padding: 7px 21px;
+	border-radius: 2px;
+
+	a {
+		font-family: Finlandica;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+}
+
+.header-row {
+	display: flex;
+	justify-content: space-between;
+}
+.header-content {
+	margin-top: 70px;
+	z-index: 1;
+}
+.header-heading {
+	margin: 0;
+	font-weight: 700;
+	font-size: 80px;
+	font-family: $font-header;
+}
+
+.header-img {
+	/* background: green; */
+	position: relative;
+}
+
+.header-gradient__1 {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	left: 420px;
+	top: 450px;
+	transform: rotate(170deg);
+	transform-origin: 0 0;
+	background: linear-gradient(
+		180deg,
+		rgba(254.63, 255, 236.3, 0.62) 10%,
+		rgba(240, 77, 55, 0.54) 0%
+	);
+	filter: blur(70px);
+}
+.header-gradient__2 {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	left: 100px;
+	top: 50px;
+	background: linear-gradient(
+		217deg,
+		rgba(43, 226, 240, 0.5) 0%,
+		rgba(48, 58, 255, 0.53) 100%
+	);
+	filter: blur(70px);
+}
+
+.header-illustration {
+	position: relative;
+}

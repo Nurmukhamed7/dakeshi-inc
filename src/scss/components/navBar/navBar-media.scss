@@ -19,10 +19,6 @@
 		text-align: right;
 	}
 
-	.nav-button {
-		display: block;
-	}
-
 	.nav.open .nav-list {
 		position: fixed;
 		top: 0;
@@ -40,9 +36,14 @@
 	}
 
 	.nav-button {
-		position: fixed;
+		display: block;
+		position: absolute;
 		z-index: 9;
 		top: 32px;
 		left: 30px;
+	}
+
+	.nav.open .nav-button {
+		position: fixed;
 	}
 }

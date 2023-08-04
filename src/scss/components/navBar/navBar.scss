@@ -4,6 +4,7 @@
 	align-items: center;
 	z-index: 10;
 	margin-bottom: 50px;
+	padding-top: 30px;
 }
 
 .nav {
@@ -15,7 +16,6 @@
 }
 
 .nav-list {
-	padding: 0;
 	display: flex;
 	align-items: center;
 	gap: 105px;
@@ -29,7 +29,23 @@
 .nav-item {
 }
 
+.nav-item:nth-child(1) {
+	color: $orange;
+	position: relative;
+}
+
+.nav-item:nth-child(1)::after {
+	content: url('/images/BRUSH STROKE.svg');
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+}
+
 .nav-link {
+}
+
+.nav-link.active {
+	color: $orange;
 }
 
 .contact {
